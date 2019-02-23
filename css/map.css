@@ -1,0 +1,7 @@
+.map-container{
+    margin-top: 4rem;
+}
+#mapview {
+    width: 75%;
+    height: 100vh;
+}
