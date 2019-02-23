@@ -17,7 +17,7 @@
         <h1 class="masthead-heading mb-0">Kisan Mitra</h1>
         <!-- <h2 class="masthead-subheading mb-0">Know the best crop for your land</h2> -->
         <h2 class="masthead-subheading mb-0">जानिए अपनी जमीन के लिए सबसे अच्छी फसल</h2>
-        <a href="#" class="btn btn-primary btn-xl rounded-pill mt-5">See Geo Map</a>
+        <a href="map.php" class="btn btn-primary btn-xl rounded-pill mt-5">See Geo Map</a>
       </div>
     </div>
     <div class="bg-circle-1 bg-circle"></div>
