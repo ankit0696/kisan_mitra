@@ -38,8 +38,8 @@
 
 .section-filter{
     padding: 2rem;
-    background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126,213,111,0.5)), to(rgba(40,180,133,0.5))),url(../img/hero-small.jpg);
-    background-image: linear-gradient(to right bottom, rgba(126,213,111,0.5), rgba(40,180,133,0.5)),url(../img/hero-small.jpg);
+    background-image: -webkit-gradient(linear, left top, right bottom, from(#ffb900), to(#ff7730));
+    background-image: linear-gradient(to right bottom, #ffb900, #ff7730);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
