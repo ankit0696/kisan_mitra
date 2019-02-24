@@ -18,12 +18,8 @@
         <!-- <h2 class="masthead-subheading mb-0">Know the best crop for your land</h2> -->
         <h2 class="masthead-subheading mb-0">जानिए अपनी जमीन के लिए सबसे अच्छी फसल</h2>
         <a href="map.php" class="btn btn-primary btn-xl rounded-pill mt-5">See Geo Map</a>
+        <a href="lite.php" class="btn btn-primary btn-xl rounded-pill mt-5">Lite Version</a>
       </div>
-    </div>
-    <div class="bg-circle-1 bg-circle"></div>
-    <div class="bg-circle-2 bg-circle"></div>
-    <div class="bg-circle-3 bg-circle"></div>
-    <div class="bg-circle-4 bg-circle"></div>
   </header>
 
   <section>

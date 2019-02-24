@@ -32,10 +32,11 @@
   <!-- Navigation -->
   <?php include_once 'parts/nav.php'; ?>
 
-  <header class="text-center text-white">
+  <header class="text-white">
 
       <div class="map-container">
-        <div id="mapview"></div>
+        <!-- <div id="mapview"></div> -->
+        <iframe src="https://ankitshivam.maps.arcgis.com/apps/webappviewer/index.html?id=206918fc108b4e9cbe64bd1454f925f6" frameborder="0" style="width:75%;height:100vh"></iframe>
       </div>
 
   </header>

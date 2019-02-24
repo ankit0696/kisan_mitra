@@ -1,5 +1,5 @@
-.map-container{
-    margin-top: 4rem;
+.fixed-top {
+    position: relative;
 }
 #mapview {
     width: 75%;

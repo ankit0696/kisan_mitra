@@ -53,8 +53,8 @@ header.masthead {
   overflow: hidden;
   padding-top: calc(7rem + 72px);
   padding-bottom: 7rem;
-  background: -webkit-gradient(linear, left bottom, left top, from(#ff6a00), to(#ee0979));
-  background: linear-gradient(0deg, #ff6a00 0%, #ee0979 100%);
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(126,213,111,0.5)), to(rgba(40,180,133,0.5))),url(../img/hero-small.jpg);
+  background-image: linear-gradient(to right bottom, rgba(126,213,111,0.5), rgba(40,180,133,0.5)),url(../img/hero-small.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: scroll;
@@ -128,18 +128,25 @@ header.masthead .bg-circle-4 {
 }
 
 .btn-primary {
-  background-color: #ee0979;
-  border-color: #ee0979;
+  background-color: #589c0a;
+  border-color: #589c0a;
+  margin: 0 1rem;
+  -webkit-box-shadow: 0 1rem 1rem rgba(255, 255, 255, 0.1);
+  box-shadow: 0 1rem 1rem rgba(255, 255, 255, 0.1);
+  -webkit-transition: all .2s;
+  transition: all .2s;
 }
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-  background-color: #bd0760 !important;
-  border-color: #bd0760 !important;
+  background-color: #589c0a !important;
+  border-color: #589c0a !important;
+  box-shadow: 0 1rem 2rem rgba(0,0,0,0.2);
+
 }
 
 .btn-primary:focus {
-  -webkit-box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
-  box-shadow: 0 0 0 0.2rem rgba(238, 9, 121, 0.5);
+  -webkit-box-shadow: 0 0 0 0.2rem rgba(49, 143, 12, 0.774);
+  box-shadow: 0 0 0 0.2rem rgba(49, 143, 12, 0.774);
 }
 
 .btn-secondary {
