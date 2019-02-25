@@ -14,12 +14,12 @@
 
       <link rel="stylesheet" href="css/admin.css">
 
-  
+
 </head>
 
 <body>
 
-  
+
 <div class="panel-container">
   <div class="panel-controls" data-bind="css: {collapsed: collapsedNav}">
     <ul>
@@ -27,6 +27,7 @@
       <li data-bind="css: {active: displayTab() === 'users'}, click: changeTab.bind($data, 'users')"><a><i class="fa fa-users"></i><span class="label">Users</span><i class="fa fa-caret-left caret"></i></a></li>
       <li data-bind="css: {active: displayTab() === 'documents'}, click: changeTab.bind($data, 'documents')"><a><i class="fa fa-archive"></i><span class="label">Documents</span><i class="fa fa-caret-left caret">  </i></a></li>
       <li data-bind="css: {active: displayTab() === 'pins'}, click: changeTab.bind($data, 'pins')"><a><i class="fa fa-thumb-tack"></i><span class="label">Pinned Docs</span><i class="fa fa-caret-left caret"></i></a></li>
+      <li><a href="#"><i class="fa fa-thumb-tack"></i><span class="label">Logout</span><i class="fa fa-caret-left caret"></i></a></li>
       <!-- li.nav-control
       a
         i.fa.fa-sign-out
@@ -54,7 +55,7 @@
   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
 <script src='http://cdnjs.cloudflare.com/ajax/libs/knockout/3.0.0/knockout-min.js'></script>
 
-  
+
 
     <script  src="js/index.js"></script>
 
