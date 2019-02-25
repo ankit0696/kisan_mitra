@@ -1,4 +1,6 @@
-<?php require_once './api/login_script.php'; ?>
+<?php 
+session_start();
+?>
 <!DOCTYPE html>
 <html lang="en" >
 
@@ -19,7 +21,7 @@
 
   <div class="grid">
 
-    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="POST" class="form login">
+    <form action="./api/login_script.php" method="POST" class="form login">
 
       <div class="form__field">
         <label for="login__username" ><svg class="icon"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#user"></use></svg><span class="hidden">Username</span></label>

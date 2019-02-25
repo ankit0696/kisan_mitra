@@ -1,6 +1,6 @@
 <?php
-require_once '../api/includes/db_connect.php';
-echo "hej";
+require_once '../../api/includes/db_connect.php';
+
 class login{
 
 	public $con;
