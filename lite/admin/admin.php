@@ -1,3 +1,9 @@
+<?php
+session_start();
+if(!isset($_SESSION['email']))
+{
+   header('Location: ./index.php' , true);
+} ?>
 <!DOCTYPE html>
 <html lang="en" >
 
@@ -27,7 +33,7 @@
       <li data-bind="css: {active: displayTab() === 'users'}, click: changeTab.bind($data, 'users')"><a><i class="fa fa-users"></i><span class="label">Users</span><i class="fa fa-caret-left caret"></i></a></li>
       <li data-bind="css: {active: displayTab() === 'documents'}, click: changeTab.bind($data, 'documents')"><a><i class="fa fa-archive"></i><span class="label">Documents</span><i class="fa fa-caret-left caret">  </i></a></li>
       <li data-bind="css: {active: displayTab() === 'pins'}, click: changeTab.bind($data, 'pins')"><a><i class="fa fa-thumb-tack"></i><span class="label">Pinned Docs</span><i class="fa fa-caret-left caret"></i></a></li>
-      <li><a href="#"><i class="fa fa-thumb-tack"></i><span class="label">Logout</span><i class="fa fa-caret-left caret"></i></a></li>
+      <li><a href="./api/logout.php"><i class="fa fa-thumb-tack"></i><span class="label">Logout</span><i class="fa fa-caret-left caret"></i></a></li>
       <!-- li.nav-control
       a
         i.fa.fa-sign-out

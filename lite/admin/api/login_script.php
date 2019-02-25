@@ -1,5 +1,5 @@
 <?php
-
+session_start();
 require_once 'login.php';
 $response = array();
 // if(isset($_SESSION['email'])){
