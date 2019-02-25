@@ -62,6 +62,7 @@ body {
   cursor: pointer;
   display: table-cell;
   vertical-align: middle;
+  text-decoration: none;
 }
 .panel-controls li a .label {
   opacity: 1;
