@@ -5,11 +5,6 @@
   <?php include_once 'parts/head.php'; ?>
   <link href="css/lite.css" rel="stylesheet">
   <title>India Map</title>
- 
-
-
- <!--  Styles  -->  
- <link type="text/css" rel="stylesheet" href="lite/css/index.css"/>
 
    
 
@@ -266,10 +261,44 @@
             <div class="col-sm-3 section-filter">
                 <div class="feature-box">
                     <i class="feature-box__icon icon-basic-compass"></i>
-                    <h3 class="heading-tertiary u-margin-bottom-small">Rice Rating</h3>
-                    <p class="feature-box__text">
-                        <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam, ipsum sapiente aspernatur. -->
-                    </p>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Filters</h3>
+
+                    <div class="form-group">
+                        <label for="sel1" class="form-control-sm">Select Crop:</label>
+                        <select class="form-control" id="sel1" disabled>
+                            <option>Rice</option>
+                            <option>Wheat</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="sel2" class="form-control-sm">Select Month:</label>
+                        <select class="form-control" id="sel2">
+                            <option></option>
+                            <option>jan</option>
+                            <option>feb</option>
+                            <option>mar</option>
+                            <option>apr</option>
+                            <option>may</option>
+                            <option>jun</option>
+                            <option>jul</option>
+                            <option>aug</option>
+                            <option>sep</option>
+                            <option>oct</option>
+                            <option>nov</option>
+                            <option>dec</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="sel3" class="form-control-sm">Select State:</label>
+                        <select class="form-control" id="sel3">
+                            <option></option>
+                            <option>Andaman and Nicobar Islands</option>
+                            <option>Andhra Pradesh</option>
+                        </select>
+                    </div>
+
                 </div>
             </div>
         </div>
