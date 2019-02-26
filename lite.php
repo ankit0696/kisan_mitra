@@ -6,7 +6,7 @@
   <link href="css/lite.css" rel="stylesheet">
   <title>India Map</title>
 
-   
+
 
 
     <!-- Step 1 - Including the fusioncharts core library -->
@@ -29,8 +29,8 @@
                 "dataSource": {
                     // Map Configuration
                     "chart": {
-                        "caption": "Average Annual Population Growth",
-                        "subcaption": " 1955-2015",
+                        "caption": "Better Yield Probablity",
+                        "subcaption": " Rice",
                         "numbersuffix": "%",
                         "includevalueinlabels": "1",
                         "labelsepchar": ": ",
@@ -260,7 +260,7 @@
             </div>
             <div class="col-sm-3 section-filter">
                 <div class="feature-box">
-                    <i class="feature-box__icon icon-basic-compass"></i>
+                  <form class="form" action="<?php htmlentities($_SERVER['PHP_SELF']); ?>" method="POST">
                     <h3 class="heading-tertiary u-margin-bottom-small">Filters</h3>
 
                     <div class="form-group">
@@ -273,8 +273,7 @@
 
                     <div class="form-group">
                         <label for="sel2" class="form-control-sm">Select Month:</label>
-                        <select class="form-control" id="sel2">
-                            <option></option>
+                        <select class="form-control" id="sel2" name="month">
                             <option>jan</option>
                             <option>feb</option>
                             <option>mar</option>
@@ -290,14 +289,21 @@
                         </select>
                     </div>
 
-                    <div class="form-group">
+                    <!-- <div class="form-group">
                         <label for="sel3" class="form-control-sm">Select State:</label>
                         <select class="form-control" id="sel3">
                             <option></option>
                             <option>Andaman and Nicobar Islands</option>
                             <option>Andhra Pradesh</option>
                         </select>
-                    </div>
+                    </div> -->
+
+
+                    <input type="submit" name="" value="Go" class="btn btn-primary">
+
+
+                  </form>
+
 
                 </div>
             </div>
