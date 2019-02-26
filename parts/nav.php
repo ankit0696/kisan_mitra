@@ -7,7 +7,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link lite" href="#">Lite</a>
+                <a class="nav-link lite" href="lite.php">Lite</a>
             </li>
             <li class="nav-item">
             <a class="nav-link" href="map.php">Geo-Refrence Map</a>
