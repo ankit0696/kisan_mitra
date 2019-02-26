@@ -20,12 +20,5 @@
 
 	}
 
-			$obj = new get_state_details();
 
-			$result = $obj->retrive_state_details('jan');
-			$arr = array();
-			while($temp = mysqli_fetch_assoc($result)){
-				$arr[] = $temp;
-			}
-
-			echo json_encode($arr);
+			
